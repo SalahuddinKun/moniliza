@@ -1,0 +1,54 @@
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.controls {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 8px 8px;
+}
+
+.play-pause-button,
+.fullscreen-button {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;  
+}
+
+.progress-bar {
+    flex-grow: 1;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 2px;
+    position: relative;
+}
+.play-pause-button:hover,
+.fullscreen-button:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+.progress {
+    height: 100%;
+    background: red;
+    border-radius: 2px;
+}

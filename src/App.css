@@ -1,0 +1,408 @@
+ a {
+   cursor: pointer;
+ }
+
+ .carousel-container {
+   position: relative;
+ }
+
+ .carousel-slide {
+   position: relative;
+ }
+
+ .carousel-slide img {
+   width: 100%;
+   height: auto;
+ }
+
+ .carousel-content {
+   position: absolute;
+   left: 10%;
+
+   top: 50%;
+   transform: translateY(-50%);
+   color: #fff;
+   text-align: left;
+ }
+
+ .carousel-heading {
+   font-size: 5vw;
+   margin: 0;
+ }
+
+ .carousel-button {
+   background-color: #710707;
+   /* Brown color */
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   font-size: 16px;
+   cursor: pointer;
+   margin-top: 10px;
+ }
+
+ .carousel-box {
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   padding: 10px;
+   background: #000;
+   color: #fff;
+ }
+
+ .carousel-indicator {
+   display: flex;
+   align-items: center;
+ }
+
+ .carousel-squares {
+   display: flex;
+   margin: 0 20px;
+ }
+
+ .carousel-square {
+   width: 20px;
+   height: 20px;
+   margin: 0 5px;
+   background: #fff;
+   border-radius: 50%;
+ }
+
+ .carousel-square.active {
+   background: #8b4513;
+
+ }
+
+ .carousel-arrows button {
+   background: transparent;
+   border: none;
+   color: #fff;
+   font-size: 20px;
+   cursor: pointer;
+ }
+
+ .carousel-slide img {
+   width: 100%;
+   height: 400px;
+   object-fit: cover;
+   height: 400px;
+   background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.5) 16.19%, rgba(0, 0, 0, 0) 30.73%), url(./assets/bg.jpg);
+   background-size: cover;
+ }
+
+ .main {
+   color: #9D8665;
+ }
+
+ .line {
+   color: #710707;
+
+ }
+
+ .card {
+   width: 18rem;
+   border: none;
+ }
+
+ .underline {
+   border-bottom: 2px solid #8b4513;
+   text-decoration: none;
+   padding-bottom: 8px;
+ }
+
+ .uni {
+   text-decoration: none;
+ }
+
+ /* .flex{
+  display: flex;
+  justify-content: center;
+} */
+ .heading {
+   border-bottom: 2px solid #710707;
+   width: 309px;
+
+ }
+
+ .line {
+   color: #710707;
+
+ }
+
+ .gojo {
+   border: none !important;
+   padding: none !important;
+   background: #000;
+ }
+
+ .gallery-images img {
+   padding: 10px;
+ }
+
+ .gallery-item {
+   width: 100%;
+   overflow: hidden;
+ }
+
+ .geto {
+   width: 17rem;
+ }
+
+ .long {
+   background-image: url('./assets/long.jpeg');
+   background-size: cover;
+   background-position: center;
+   height: 300px;
+
+   width: 100%;
+
+ }
+
+ .import {
+   height: 18rem;
+   background-size: cover;
+   width: 100%;
+   background-position: center;
+   overflow: hidden;
+ }
+
+ .sakura {
+   list-style: none;
+ }
+
+ .flex {
+   display: flex;
+   align-items: flex-end;
+   justify-content: flex-end;
+ }
+
+ .end {
+   border-top: 2px solid white;
+ }
+
+ .last {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .carousal {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .slick-slide {
+   padding: 0 5px;
+ }
+
+ .slick-list {
+   margin: 0 -5px;
+ }
+
+ .carousel-image {
+   width: 100%;
+   height: 250px;
+   object-fit: cover;
+ }
+
+ .carousel-item {
+   position: relative;
+ }
+
+ .carousel-image {
+   width: 100%;
+   height: auto;
+ }
+
+ .video-icon {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: none !important;
+   width: 12rem;
+   cursor: pointer;
+ }
+
+ .carousel-item:hover .video-icon {
+   display: block !important;
+   transition: 3s !important;
+ }
+
+ .tour {
+   color: #710707;
+ }
+
+ .loan {
+   border-bottom: 2px solid #740C11;
+   width: 67%;
+ }
+
+ .drop {
+   width: 189px;
+ }
+
+ .input {
+   width: 28rem;
+
+ }
+
+ .bord {
+   border: 1px solid black;
+   width: 23rem;
+ }
+
+ .moon {
+   border-bottom: 1px solid #740C11;
+   width: 93%;
+ }
+
+ .here {
+   border: 1px solid black;
+   height: 43rem;
+ }
+
+ .yuji {
+   color: #710707;
+ }
+
+ a {
+   text-decoration: none;
+ }
+
+ .satoru {
+   width: 15rem;
+ }
+
+ .vegita {
+   border-radius: 11px;
+   background-color: black;
+   width: 2rem;
+   height: 1.3rem;
+ }
+
+ .grade {
+   border-bottom: 1px solid #740C11;
+ }
+
+ .visa {
+   background-color: #BCBCBC;
+   width: 26rem;
+   height: 13rem;
+   position: relative;
+   z-index: 10;
+ }
+
+ .visa1 {
+   background-color: #BCBCBC;
+   width: 26rem;
+   height: 13rem;
+   position: absolute;
+   top: 37px;
+   right: 0;
+   z-index: 2;
+
+ }
+
+ .ever {
+   width: 10rem;
+
+ }
+
+ .parent {
+   position: relative;
+ }
+
+ .dark {
+   background-color: black;
+   height: 4rem;
+ }
+
+ .doit {
+   float: right;
+ }
+
+ .book {
+   background-color: #710707;
+   color: white;
+   width: 12rem;
+ }
+
+ .dior {
+   float: right;
+   margin-top: 30px;
+ }
+
+ .problem {
+   margin-left: 99px;
+ }
+
+ .media {
+   display: flex;
+   justify-content: space-between;
+ }
+.atlast{
+  width: '25rem' ;
+}
+ @media (max-width: 575px) {
+   .zoro {
+     display: none;
+   }
+  }
+   .gohan {
+     display: flex;
+     justify-content: center;
+   }
+
+   @media (max-width: 767px) {
+     .satoru {
+       width: 12rem;
+       margin-left: 2px;
+     }
+
+   }
+
+   @media (min-width: 768px) and (max-width: 991px) {
+.here{
+ width: 100%;
+}
+  }
+  @media(max-width: 425px){
+    .visa1{
+    top: 209px;
+    left: -9px;
+    }
+    .visa{
+    right: 9px;
+    }
+    .here{
+      height:48rem ;
+    }
+    .dior{
+      top: 365px;
+    position: absolute;
+    right: 1px;
+}
+    
+  }
+  @media (min-width: 250px) and (max-width: 585px){
+.visa{
+  width: 100%;
+}
+.visa1{
+  width: 100%;
+}
+.here{
+  height: 55rem;
+}
+.atlast{
+  width: 10rem;
+  
+}
+.ever{
+  width: 100%;
+}
+.bord{
+  width: 100%;
+}
+  }
