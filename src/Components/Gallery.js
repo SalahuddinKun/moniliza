@@ -12,34 +12,28 @@ import g9 from '../assets/g9.jpeg';
 const Gallery = () => {
     return (
         <div>
-        <div className='bg-black mt-5 gallery-images'>
-   
+            <div className='bg-black mt-5 gallery-images'>
                 <div className='container'>
-              
-                    <div className='row mt-5' >
-                    <h2 className='text-white fw-light mt-5'>ART GALLERY</h2>
+                    <div className='row mt-5'>
+                        <h2 className='text-white fw-light mt-5 text-center'>ART GALLERY</h2>
                         <div className='col-lg-4 col-md-12 mb-4 mb-lg-0'>
-                            <div className='gallery-item'><img src={g1} class="gojo m-2" alt="..." /></div>
-                            <div className='gallery-item '><img src={go} class="gojo  m-2" alt="..." /></div>
-                            <div className='gallery-item'><img src={g2} class="gojo  m-2" alt="..." /></div>
-
+                            <div className='gallery-item'><img src={g1} className="gojo m-2" alt="..." /></div>
+                            <div className='gallery-item'><img src={go} className="gojo m-2" alt="..." /></div>
+                            <div className='gallery-item'><img src={g2} className="gojo m-2" alt="..." /></div>
                         </div>
                         <div className='col-lg-4 col-md-12 mb-4 mb-lg-0'>
-                            <div className='gallery-item'><img src={g4} class="gojo  m-2" alt="..." /></div>
-                            <div className='gallery-item'><img src={g5} class="gojo m-2" alt="..." /></div>
-                            <div className='gallery-item'><img src={g6} class="gojo  m-2" alt="..." /></div>
-
+                            <div className='gallery-item'><img src={g4} className="gojo m-2" alt="..." /></div>
+                            <div className='gallery-item'><img src={g5} className="gojo m-2" alt="..." /></div>
+                            <div className='gallery-item'><img src={g6} className="gojo m-2" alt="..." /></div>
                         </div>
                         <div className='col-lg-4 col-md-12 mb-4 mb-lg-0'>
-                            <div className='gallery-item'><img src={g7} class="gojo  m-2" alt="..." /></div>
-                            <div className='gallery-item'><img src={g8} class="gojo m-2" alt="..." /></div>
-                            <div className='gallery-item'><img src={g9} class="gojo  m-2" alt="..." /></div>
-
+                            <div className='gallery-item'><img src={g7} className="gojo m-2" alt="..." /></div>
+                            <div className='gallery-item'><img src={g8} className="gojo m-2" alt="..." /></div>
+                            <div className='gallery-item'><img src={g9} className="gojo m-2" alt="..." /></div>
                         </div>
                     </div>
                 </div>
-        </div>
-      
+            </div>
         </div>
     );
 }

@@ -406,3 +406,35 @@
   width: 100%;
 }
   }
+  /* Ensure images are centered and not overflowing */
+.gallery-images .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center images horizontally */
+}
+
+.gallery-images .col-lg-4,
+.gallery-images .col-md-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items vertically */
+}
+
+/* Style for gallery items */
+.gallery-item {
+  display: flex;
+  justify-content: center; /* Center images horizontally within each gallery item */
+}
+
+.gallery-item img {
+  width: 100%;
+  max-width: 300px; /* Adjust the maximum width as needed */
+  height: auto;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .gallery-item img {
+      max-width: 100%; /* Ensure images fit within their container */
+  }
+}
